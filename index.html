@@ -747,10 +747,9 @@
         var elemBottom = rect.bottom;
 
         // Only completely visible elements return true:
-        var isVisible = ((elemBottom >= 0 && elemBottom <= screen.height * 0.5));
         // Partially visible elements return true:
         //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
-        return isVisible;
+        return ((elemBottom >= 0 && elemBottom <= screen.height * 0.5));
     }
 
     function isScrolledBacktoFirst() {
@@ -776,22 +775,21 @@
     function imageFactory() {
         //We use the previous section because we use the end of this to determine if it is over and the next can start
 
-        if (isScrolledBacktoFirst()) {
-            setImage(img1);
+        if (isScrolledIntoView("section3")) {
+            setImage(img4);
         } else if (isScrolledIntoView("section1")) {
             setImage(img2);
         } else if (isScrolledIntoView("section2")) {
             setImage(img3);
-        } else if (isScrolledIntoView("section3")) {
-            setImage(img4);
-
-
-            return null;
+        } else if (isScrolledBacktoFirst()) {
+            setImage(img1);
         }
+        return null;
+    }
 
-        window.onscroll = function () {
-            imageFactory();
-        }
+    window.onscroll = function () {
+        imageFactory();
+    }
 
 </script>
 </html>
