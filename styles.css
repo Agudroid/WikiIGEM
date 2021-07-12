@@ -6,5 +6,8 @@
 #goti {
     height: 15em;
     max-width: 100%;
-    visibility: visible;
+}
+#bg-goti {
+    height: 15em;
+    max-width: 100%;
 }

@@ -8,9 +8,11 @@
 
 </head>
 <body>
+
 <div class="fixedImage">
     <img id="goti" src="https://i.imgur.com/izeK1Py.png">
 </div>
+
 <div>
     <div id="section1" style="background-color: blue">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum vel sapien sit amet pulvinar. Nam mollis
@@ -759,13 +761,47 @@
         return ((elemBottom >= 0 || elemTop >= 0));
     }
 
-
-    function setImage(imgSrc) {
-        //We try to improve performance by reducing assignements to same value
-        var goti = document.getElementById("goti");
-        if (goti.getAttribute("src") !== imgSrc) {
-            goti.setAttribute("src", imgSrc);
+    async function hide(element) {
+        var op = 1;  // initial opacity
+        while (op>0.1){
+            element.style.opacity = op;
+            element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+            op -= op * 0.1;
+            await sleep(100);
         }
+    }
+
+    async function display(element) {
+        var op = 0.1;  // initial opacity
+        while (op<1){
+            element.style.opacity = op;
+            element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+            op += op * 0.1;
+            await sleep(100);
+        }
+    }
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    function setImage(imgSrc) {
+        //We try to improve performance by reducing assignments to same value
+        var goti = document.getElementById("goti");
+        var bggoti = document.getElementById("bg-goti");
+
+        if (goti.getAttribute("src") !== imgSrc) {
+            //set the bg image to the next
+
+            //hide out front image
+            $(goti).fadeOut("slow",function (){
+                //set the front image to be the next image
+                goti.setAttribute("src", imgSrc);
+                //set front image opacity yo true
+                $(goti).fadeIn("slow");
+                //hiding bg img is not necesary since it will be hidden behind the front image
+
+            });
+
+            }
     }
 
     function imageFactory() {
