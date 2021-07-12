@@ -1,0 +1,10 @@
+.fixedImage {
+    position: fixed;
+    top: 15em;
+}
+
+#goti {
+    height: 15em;
+    max-width: 100%;
+    visibility: visible;
+}
