@@ -743,12 +743,9 @@
     function isScrolledIntoView(id) {
         var el = document.getElementById(id);
         var rect = el.getBoundingClientRect();
-        var elemTop = rect.top;
         var elemBottom = rect.bottom;
 
-        // Only completely visible elements return true:
-        // Partially visible elements return true:
-        //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+        //Only return true if the bottom of the previous part has surpassed the top 50% of the screen
         return ((elemBottom >= 0 && elemBottom <= screen.height * 0.5));
     }
 
@@ -757,15 +754,14 @@
         var rect = el.getBoundingClientRect();
         var elemTop = rect.top;
         var elemBottom = rect.bottom;
-
-        // Only completely visible elements return true:
-        // Partially visible elements return true:
-        //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+        //Special case of scroll
+        //We must check if top and bottom are inview because there is no previous section
         return ((elemBottom >= 0 || elemTop >= 0));
     }
 
 
     function setImage(imgSrc) {
+        //We try to improve performance by reducing assignements to same value
         var goti = document.getElementById("goti");
         if (goti.getAttribute("src") !== imgSrc) {
             goti.setAttribute("src", imgSrc);
@@ -774,13 +770,12 @@
 
     function imageFactory() {
         //We use the previous section because we use the end of this to determine if it is over and the next can start
-
-        if (isScrolledIntoView("section3")) {
-            setImage(img4);
-        } else if (isScrolledIntoView("section1")) {
+        if (isScrolledIntoView("section1")) {
             setImage(img2);
         } else if (isScrolledIntoView("section2")) {
             setImage(img3);
+        } else if (isScrolledIntoView("section3")) {
+            setImage(img4);
         } else if (isScrolledBacktoFirst()) {
             setImage(img1);
         }
@@ -788,6 +783,7 @@
     }
 
     window.onscroll = function () {
+        //Everytime the user scrolls the method is called and it checks what image to display
         imageFactory();
     }
 
