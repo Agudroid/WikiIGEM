@@ -470,13 +470,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .waveWrapper {
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
+  overflow: auto;
+  background-position: center;
   margin: auto;
+  padding-bottom:500px;
 }
 .waveWrapperInner {
   position: absolute;
@@ -757,6 +754,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
+  padding-bottom:500px;
 }
 
 .features .icon-box i {
@@ -776,6 +774,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
+  padding-bottom:500px;
 }
 
 /*--------------------------------------------------------------
