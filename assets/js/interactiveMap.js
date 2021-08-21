@@ -1,21 +1,9 @@
-function DisplayText1() {
-    $("#map3").fadeOut("fast", function () {
-        $("#map2").fadeOut("fast", function () {
-            $("#map1").fadeIn("fast");
-        });
-    });
-}
-function DisplayText2() {
-    $("#map3").fadeOut("fast", function () {
-        $("#map1").fadeOut("fast", function () {
-            $("#map2").fadeIn("fast");
-        });
-    });
-}
-function DisplayText3() {
-    $("#map1").fadeOut("fast", function () {
-        $("#map2").fadeOut("fast", function () {
-            $("#map3").fadeIn("fast");
-        });
-    });
+function displayText(identifier){
+    numberOfElements=3; //Número total de elementos del mapa
+    for (var i=1;i<numberOfElements;i++) {
+        id = '#map' + i;
+        $(id).fadeOut("fast");
+    }
+    identifier="#"+identifier;
+    $(identifier).fadeIn("fast");
 }
