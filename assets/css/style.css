@@ -1105,3 +1105,51 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
+/* color bars */
+
+.bar{
+  position: relative;
+  width: 80%;
+  left: 0;
+  right: 0;
+  overflow:hidden;
+ border-radius: 25px;
+  text-align: center;
+}
+
+.green{
+  background: #43c143;
+}
+
+.blue{
+  background: #6b6bb8;
+}
+
+.orange{
+  background:orange;
+}
+
+.yellow{
+  background:yellow;
+}
+
+.red{
+  background:red;
+}
+
+.lightblue{
+  background:lightblue;
+}
+
+.purple{
+  background: #c64cc6;
+}
+.rainbow{
+  background: rgb(0,255,183);
+  background: linear-gradient(90deg, rgba(0,255,183,1) 22%, rgba(0,255,121,1) 51%, rgba(0,255,183,1) 80%);}
+
+.hidden{
+display: none;
+}
