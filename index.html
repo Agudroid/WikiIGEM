@@ -86,13 +86,13 @@
     </div>
 </header><!-- End Header -->
 
-
+<!-- Gotti Lagotta -->
 <div class="fixedImage">
     <div class="balloon" id="balloon">
         Este es el texto que dice gotti la gota
     </div>
     <img src="assets/img/gotti_temp.png" height="150" width="100">
-</div>
+</div><!-- End Gotti Lagotta -->
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
@@ -168,12 +168,14 @@
     <section class="about">
         <div class="container">
 
+            <div id="limitAboutSection1"></div>
+
             <div class="section-title" data-aos="zoom-out" id="problem">
                 <h2>Problem</h2>
                 <p>Why we need it</p>
             </div>
 
-            <div id="limit"></div>
+            <div id="limitAboutSection2"></div>
 
             <div class="row content" data-aos="fade-up">
                 <div class="col-lg-6">
@@ -207,16 +209,18 @@
         </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Solution Section ======= -->
     <section class="solution about">
         <div class="container">
+
+            <div id="limitSolutionSection1"></div>
 
             <div class="section-title" data-aos="zoom-out" id="solution">
                 <h2>Solution</h2>
                 <p>How we will solve it</p>
             </div>
 
-            <div id="limit2"></div>
+            <div id="limitSolutionSection2"></div>
 
             <div class="row content" data-aos="fade-up">
                 <div class="col-lg-6">
@@ -247,18 +251,20 @@
                 </div>
             </div>
         </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Solution Section -->
 
     <!-- ======= Features Section ======= -->
     <section class="features">
         <div class="container">
+
+            <div id="limitFeaturesSection1"></div>
 
             <div class="section-title" data-aos="zoom-out" id="features">
                 <h2>Features</h2>
                 <p>Features OMG</p>
             </div>
 
-            <div id="limit3"></div>
+            <div id="limitFeaturesSection2"></div>
 
             <ul class="nav nav-tabs row d-flex">
                 <li class="nav-item col-3" data-aos="zoom-in">
@@ -431,21 +437,25 @@
         </div>
     </section><!-- End Features Section -->
 
-
+    <!-- ======= Workflow Section ======= -->
     <section id="workflow">
         <div class="container-fluid workflow">
             <img class="workflow" src="assets/img/workflow.svg" alt="">
         </div>
-    </section>
+    </section><!-- End Workflow Section -->
 
     <!-- ======= Chart Section ======= -->
     <section class="charts">
         <div class="container">
+
+            <div id="limitChartSection1"></div>
             <div class="section-title" data-aos="zoom-out" id="charts">
                 <h2>Charts</h2>
                 <p>How we studied it</p>
             </div>
-            <div id="limit4"></div>
+
+            <div id="limitChartSection2"></div>
+
             <div class="row">
                 <div class="col-12 col-md-6 text-center">
                     <div class="scrollAnimation">
@@ -471,12 +481,14 @@
     <section class="services">
         <div class="container">
 
+            <div id="limitServicesSection1"></div>
+
             <div class="section-title" data-aos="zoom-out" id="services">
                 <h2>Links</h2>
                 <p>Other links</p>
             </div>
 
-            <div id="limit5"></div>
+            <div id="limitServicesSection2"></div>
 
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -648,79 +660,7 @@
 <script src="assets/js/main.js"></script>
 
 <script src="assets/js/indexChart.js"></script>
+<script src="assets/js/gottiMessage.js"></script>
 </body>
-
-<script>
-
-    const text1 = "lksAFPJNdkjnaslkj";
-    const text2 = "AAAAAAAAAAAAAAAAAAAAAA";
-    const text3 = "BBBBBBBBBBBBBBBBBBBB";
-    const text4 = "CCCCCCCCCCCCCCCCCCC";
-
-    function isScrolledIntoView(id) {
-        var el = document.getElementById(id);
-        var rect = el.getBoundingClientRect();
-        var elemTop = rect.top;
-
-        //Only return true if the bottom of the previous part has surpassed the top 50% of the screen
-        return ((elemTop >= 90 && elemTop <= screen.height * 0.3));
-    }
-
-    function isScrolledOutView(id) {
-        var el = document.getElementById(id);
-        var rect = el.getBoundingClientRect();
-        var elemTop = rect.top;
-
-        //Only return true if the bottom of the previous part has surpassed the top 50% of the screen
-        return ((elemTop >= 0 && elemTop <= screen.height * 0.5));
-    }
-
-    function isScrolledBacktoFirst() {
-        var el = document.getElementById("section1");
-        var rect = el.getBoundingClientRect();
-        var elemTop = rect.top;
-        var elemBottom = rect.bottom;
-        //Special case of scroll
-        //We must check if top and bottom are inview because there is no previous section
-        return ((elemBottom >= 0 || elemTop >= 0));
-    }
-
-    function setText(text) {
-        //We try to improve performance by reducing assignments to same value
-        var textballoon = document.getElementById("balloon");
-        textballoon.innerHTML = text;
-    }
-
-    function textFactory() {
-        //We use the previous section because we use the end of this to determine if it is over and the next can start
-        if (isScrolledIntoView("hero")) {
-            setText(text2);
-        } else if (isScrolledIntoView("problem")) {
-            setText(text3);
-        } else if (isScrolledIntoView("charts")) {
-            setText(text4);
-        } else if (isScrolledOutView("limit")) {
-            setText("");
-        }  else if (isScrolledOutView("limit1")) {
-            setText("");
-        }  else if (isScrolledOutView("limit2")) {
-            setText("");
-        }  else if (isScrolledOutView("limit3")) {
-            setText("");
-        }  else if (isScrolledOutView("limit4")) {
-            setText("");
-        } else if (isScrolledBacktoFirst()) {
-            setText(text1);
-        }
-
-        return null;
-    }
-
-    window.onscroll = function () {
-        //Everytime the user scrolls the method is called and it checks what image to display
-        textFactory();
-    }
-
-</script>
 
 </html>

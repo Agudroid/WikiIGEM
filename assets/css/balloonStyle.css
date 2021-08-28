@@ -11,17 +11,6 @@
     font-size: 2em
 }
 
-.balloon:before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 20px solid chocolate;
-    border-right: 18px solid transparent;
-    border-left: 18px solid transparent;
-    margin: -30px 0 0 40px;
-}
-
 .fixedImage {
     position: fixed;
     top: 7em;
