@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Gotti movement of balloon">
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Collaborations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contribution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engineering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hardware.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanPractices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Implementation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Partnership.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCommunication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Safety.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sustainable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/balloonStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/balloonStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Metabolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Metabolic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/php-email-form/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
