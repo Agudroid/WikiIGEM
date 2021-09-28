@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Collaborations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contribution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encapsulation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hardware.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HumanPractices.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Implementation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Partnership.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCommunication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Safety.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sustainable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Project files uploaded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Metabolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Metabolic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/php-email-form/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SynBio.html" beforeDir="false" afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team.html" beforeDir="false" afterPath="$PROJECT_DIR$/Team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/team-4.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,6 +60,8 @@
       <recent name="C:\Users\F541U\WebstormProjects\WikiIGEM\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Antonio\WebstormProjects\WikiIGEM\assets\img\team1" />
+      <recent name="C:\Users\Antonio\WebstormProjects\WikiIGEM\assets\img\team" />
       <recent name="C:\Users\F541U\WebstormProjects\WikiIGEM\assets\vendor" />
       <recent name="C:\Users\F541U\WebstormProjects\WikiIGEM\assets\js" />
       <recent name="C:\Users\F541U\WebstormProjects\WikiIGEM\assets\css" />
@@ -87,6 +78,11 @@
       <workItem from="1629755187192" duration="1330000" />
       <workItem from="1630065510554" duration="1806000" />
       <workItem from="1630074011230" duration="12237000" />
+      <workItem from="1632338737043" duration="1024000" />
+      <workItem from="1632512322757" duration="318000" />
+      <workItem from="1632762759267" duration="193000" />
+      <workItem from="1632762955829" duration="3993000" />
+      <workItem from="1632784639999" duration="5380000" />
     </task>
     <task id="LOCAL-00001" summary="Temporary charts">
       <created>1629756372325</created>
@@ -109,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630081427998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project files uploaded">
+      <created>1632337267507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632337267507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +134,7 @@
     <MESSAGE value="Temporary charts" />
     <MESSAGE value="Gotti presentation" />
     <MESSAGE value="Gotti movement of balloon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gotti movement of balloon" />
+    <MESSAGE value="Project files uploaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project files uploaded" />
   </component>
 </project>
