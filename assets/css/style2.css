@@ -494,7 +494,7 @@ p{
 --------------------------------------------------------------*/
 .section {
   overflow: hidden;
-  padding:30px;
+  padding:40px;
 }
 
 .section-title {
@@ -616,6 +616,11 @@ p{
 
 }
 
+.text-box{
+  margin:10px;
+  border-style: solid;
+  border-color: black;
+}
 .pictures-canvas{
   border-color: grey;
 }
