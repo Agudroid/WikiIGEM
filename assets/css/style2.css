@@ -494,7 +494,7 @@ p{
 --------------------------------------------------------------*/
 .section {
   overflow: hidden;
-  padding:30px;
+  padding:40px;
 }
 
 .section-title {
@@ -616,6 +616,11 @@ p{
 
 }
 
+.text-box{
+  margin:10px;
+  border-style: solid;
+  border-color: black;
+}
 .pictures-canvas{
   border-color: grey;
 }
@@ -1014,7 +1019,7 @@ p{
   margin: 30px 15px;
   text-align: center;
   min-height: 350px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1426,6 +1431,7 @@ p{
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   background: #14151c;
   color: #fff;
   font-size: 14px;
