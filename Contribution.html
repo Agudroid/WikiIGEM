@@ -41,7 +41,7 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="Home.html">Home</a></li>
+                <li><a class="nav-link scrollto" href="Home.html">Home</a></li>
                 <li class="dropdown"><a href="#"><span>Project</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="Description.html">Description</a></li>
@@ -81,7 +81,7 @@
                         <li><a href="#">Bioprocesses</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#"><span>iGEM</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown scrollto active"><a href="#"><span>iGEM</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="Contribution.html">Contribution</a></li>
                         <li><a href="Results.html">Results</a></li>
@@ -109,8 +109,8 @@
 
     <!-- Introduction Parragraph -->
 
-    <section class="container-fluid introduction-text mb-5">
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa velit facere cum fugiat magnam nisi nesciunt aperiam minus distinctio dolore laudantium voluptatum sapiente ullam consectetur illum cupiditate voluptas tenetur, at aspernatur quaerat vitae voluptate quisquam commodi! Numquam harum nemo repellat?</p>
+    <section class="container introduction-text mb-5">
+        <p class="text-center p-intro" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa velit facere cum fugiat magnam nisi nesciunt aperiam minus distinctio dolore laudantium voluptatum sapiente ullam consectetur illum cupiditate voluptas tenetur, at aspernatur quaerat vitae voluptate quisquam commodi! Numquam harum nemo repellat?</p>
     </section>
 
 
@@ -119,18 +119,18 @@
     
     <!-- Parts 1 Section -->
 
-
-    <div class="introduction-section container mt-5" style="padding-bottom:50px;">
-        <h2><u>Parts 1</u></h2>    
+    <h2 class="h2-section">Parts 1</h2>
+    <div class="introduction-section container" style="padding-bottom:50px;">
+            
           <div class="row">
             <div class="col-lg-8">
-                <p class="introduction-text">
+                <p class="introduction-text" data-aos="fade-up">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil ad vel mollitia sequi, eaque cupiditate magnam, officia assumenda in impedit! Non sit illum modi laudantium illo voluptas possimus distinctio.
                 <!-- enlaces -->
                 </p>
             </div>
             <div class="col-lg-4">
-                <img class="img-fluid" src="" alt="Foto ChartJS">
+                <img class="img-fluid" src="" alt="Foto ChartJS" data-aos="fade-up">
             </div>
 
         </div>
@@ -138,16 +138,18 @@
 
     <!-- PCC11801 Modeling 2 Section-->
 
+    <h2 class="h2-section">PCC11801 Modeling 2</h2>
 
-    <div class="introduction-section container mt-5">
-        <h2><u>PCC11801 Modeling 2</u></h2>
+    <div class="introduction-section container">
+        
         <div class="row">
             
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <!-- Insert Chart JS here-->
+                <canvas id="myChart" data-aos="fade-up"></canvas>
             </div>
-            <div class="col-lg-8">
-                <p class="introduction-text">
+            <div class="col-lg-9">
+                <p class="introduction-text" data-aos="fade-up">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus libero totam ut corporis molestias! Sequi harum veritatis numquam minima, soluta ipsa officia quibusdam repudiandae beatae laborum sunt corporis voluptas? Quam nemo id consequuntur neque, magnam ab voluptates sit tenetur sapiente optio officia porro animi veritatis alias. Iste facilis veritatis eligendi.
                 </p>
             </div>
@@ -155,29 +157,31 @@
     </div>
 
     <!-- Photographs handbook 3 Section -->
+    <h2 class="h2-section">Photographs handbook 3</h2>
 
-<div class="introduction-section container mt-5">
-    <h2><u>Photographs handbook 3</u></h2>
+<div class="introduction-section container">
+    
         <div class="row">
             <div class="col-lg-9">
-                <p class="introduction-text">
+                <p class="introduction-text" data-aos="fade-up">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, placeat? Delectus deleniti nobis facere voluptate non vitae amet, error impedit animi cumque, aperiam nemo aut fuga fugiat, quod mollitia accusantium explicabo. Rem numquam dolorem vero iste modi et dicta ullam enim veritatis saepe eligendi nemo officia blanditiis eveniet, dolorum reiciendis veniam odit consequuntur. Dolorem fuga inventore officia necessitatibus molestias quis?
                 </p>
             </div>
             <div class="col-lg-3">
-                <img class="img-fluid" src="" alt="Photographs Logo">
+                <img class="img-fluid" src="" alt="Photographs Logo" data-aos="fade-up">
             </div>
 
         </div>
     </div>
     
     <!-- Our vision Section-->
+    <h2 class="h2-section">Our vision</h2>
 
     <div class="introduction-section container">
-        <h2><u>Our vision</u></h2>
+        
         <div class="row">
             <div class="col-lg-12">
-                <p class="introduction-text">
+                <p class="introduction-text" data-aos="fade-up">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque eum fugiat ullam quaerat labore nam commodi molestiae sapiente maiores cum, delectus ex earum reiciendis ipsum perspiciatis consequatur voluptatibus aut aperiam voluptatum est qui mollitia perferendis! Quis explicabo consequuntur eum?
                 <!-- Links to plant synbio-->
                 </p>
@@ -190,94 +194,10 @@
 
     <!-- ====== Footer ======-->
 
-<footer id="footer" class="footer">
-    <h2>Our Sponsors</h2>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-md-6 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left">
-                    <img class="img-fluid" src="assets/img/Sponsors/640px-Logo_CNB-removebg-preview.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid"
-                         src="assets/img/Sponsors/1598-2019-03-14-Logo Compluemprende vectorizado.png" alt=""/>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/As_Biomad.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Complutense.png" alt=""/>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/denovodna_logo_March2018-removebg-preview.png"
-                         alt=""/>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left">
-                    <img class="img-fluid" src="assets/img/Sponsors/Fund DRO.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/neb.png" alt=""/>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/idt-logo-thumb-800.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Logo_biologia.png" alt=""/>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Logo_G-Research.svg" alt=""/>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/TWST.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Preincubadora.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Promega.jpg" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/SYNBIO4FLAV.png" alt=""/>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- ====== Footer End ====== -->
+
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>
@@ -289,5 +209,45 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<!-- ====== Chart JS Script ====== -->
+
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
 </body>
 </html>
