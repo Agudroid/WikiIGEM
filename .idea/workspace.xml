@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Contribution.html finished">
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Experiments.html finished">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway-semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Hardware/FOTO2_Temp_Control.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Hardware/MOSFET_wiring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Hardware/PBR_Sensors.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/Experiments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Safety.html" beforeDir="false" afterPath="$PROJECT_DIR$/Safety.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team.html" beforeDir="false" afterPath="$PROJECT_DIR$/Team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +46,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1x96v3cqWG1RRB1iZA0UiT2xqQi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -83,7 +98,11 @@
       <workItem from="1633631158819" duration="1282000" />
       <workItem from="1633704590224" duration="595000" />
       <workItem from="1633720866091" duration="1915000" />
-      <workItem from="1633745949202" duration="5318000" />
+      <workItem from="1633745949202" duration="5622000" />
+      <workItem from="1633781292583" duration="2757000" />
+      <workItem from="1633784431031" duration="4302000" />
+      <workItem from="1633884019632" duration="3038000" />
+      <workItem from="1633905890583" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="Temporary charts">
       <created>1629756372325</created>
@@ -148,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633749011084</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Experiments.html finished">
+      <created>1633751620812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633751620812</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +193,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Temporary charts" />
     <MESSAGE value="Gotti presentation" />
     <MESSAGE value="Gotti movement of balloon" />
@@ -176,6 +203,7 @@
     <MESSAGE value="Metabolic navbar fixed" />
     <MESSAGE value="Bugs fixed" />
     <MESSAGE value="Contribution.html finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contribution.html finished" />
+    <MESSAGE value="Experiments.html finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experiments.html finished" />
   </component>
 </project>
