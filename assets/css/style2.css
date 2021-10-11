@@ -1488,14 +1488,3 @@ p{
 #footer .credits {
   font-size: 13px;
 }
-
-.SafetyArrowRight{
-  /*clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);*/
-  clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
-  background: #14151c;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  padding: 30px 0;
-  align-content:center;
-}
