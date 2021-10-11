@@ -9,7 +9,7 @@
 *
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@600&display=swap');
 
 
 /*--------------------------------------------------------------
@@ -22,12 +22,12 @@ body {
 }
 
 a {
-  color: #ef6603;
+  color: #4cc1be;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fc8129;
+  color: #4cc1be;
   text-decoration: none;
 }
 
@@ -35,50 +35,56 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-h2, h3, h4 {
+h3, h4 {
   margin-bottom: 0.938rem;
 }
 
 h1 {
   font-weight: 600;
-  font-size: 5.625rem;
+  font-size: 90px;
 }
 
+
 h3 {
-  font-size: 1.75rem;
-  text-decoration: underline #1b676b;
-  color:#1b676b !important;
-  text-underline-offset: 0.75rem;
+  font-size: 29px !important;
   
 }
 
 .h2-section {
-  font-size: 2.25rem;
-  background-color: #BFEBCE;
+  font-size: 42px !important;
+  color: white !important;
+  background-color: #1b676b;
   padding-top: 1.563rem !important;
   padding-bottom: 1.563rem !important;
   width: 100%;
   text-align: center;
-
+  
 }
 
 h4 {
-  font-size: 1.5rem;
-  color: #444444;
+  font-size: 26px;
+  color: #4cc1be;
+  font-weight: bold;
   padding-left: 0.625rem;
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: 18px;
+  font-weight: bold;
 }
 p{
   font-family: 'Montserrat', sans-serif;
+  text-align: justify !important;
 }
 
 .p-intro {
-  font-size: 1.5rem !important;
+  font-size: 24px !important;
 }
 
+.line-position {
+
+  margin-bottom: -2.5rem;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -89,7 +95,7 @@ p{
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ef6603;
+  background: #4cc1be;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -103,7 +109,7 @@ p{
 }
 
 .back-to-top:hover {
-  background: #fc7c1f;
+  background: #4cc1be;
   color: #fff;
 }
 
@@ -201,7 +207,7 @@ p{
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  background: #ef6603;
+  background: #4cc1be;
 }
 
 .navbar .dropdown ul {
