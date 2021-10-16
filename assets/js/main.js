@@ -1,3 +1,31 @@
+function progressBarScroll() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+      height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+      scrolled = ( winScroll / height) * 100;
+      let x = document.getElementById("progressBar");
+      if(scrolled > 90){
+        document.getElementById("progressBar").style.height = "90" + "%";
+      }
+      else{
+        document.getElementById("progressBar").style.height = (scrolled) + "%";
+      }
+
+}
+
+window.onscroll = function () {
+  progressBarScroll();
+};
+
+function showNavigationMenu(){
+  let nav = document.getElementById("navigationMenu");
+  if(nav.style.display === "none"){
+    nav.style.display = "block";
+  }
+  else{
+    nav.style.display = "none";
+  }
+}
+
 
 (function() {
   "use strict";

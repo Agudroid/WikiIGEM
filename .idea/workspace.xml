@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="HumanPractices.html javaScript things finished">
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Safety.html finished">
+      <change afterPath="$PROJECT_DIR$/assets/img/gota_transp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Safety.html" beforeDir="false" afterPath="$PROJECT_DIR$/Safety.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prueba" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -97,7 +99,12 @@
       <workItem from="1633905890583" duration="5054000" />
       <workItem from="1633913121832" duration="149000" />
       <workItem from="1633913285056" duration="936000" />
-      <workItem from="1633959899355" duration="3870000" />
+      <workItem from="1633959899355" duration="5731000" />
+      <workItem from="1633970791722" duration="635000" />
+      <workItem from="1634037596794" duration="15000" />
+      <workItem from="1634130089973" duration="9000" />
+      <workItem from="1634229667423" duration="1302000" />
+      <workItem from="1634315425367" duration="6126000" />
     </task>
     <task id="LOCAL-00001" summary="Temporary charts">
       <created>1629756372325</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633964018049</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Safety.html finished">
+      <created>1633965053679</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1633965053679</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +229,7 @@
     <MESSAGE value="Experiments.html finished" />
     <MESSAGE value="update fonts and Hardware.html page finished" />
     <MESSAGE value="HumanPractices.html javaScript things finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="HumanPractices.html javaScript things finished" />
+    <MESSAGE value="Safety.html finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Safety.html finished" />
   </component>
 </project>
