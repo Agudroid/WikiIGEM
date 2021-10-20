@@ -4,7 +4,7 @@ function progressBarScroll() {
       scrolled = ( winScroll / height) * 100;
       let x = document.getElementById("progressBar");
       if(scrolled > 90){
-        document.getElementById("progressBar").style.height = "90" + "%";
+        document.getElementById("progressBar").style.height = "130" + "%";
       }
       else{
         document.getElementById("progressBar").style.height = (scrolled) + "%";
@@ -24,6 +24,7 @@ function showNavigationMenu(){
   else{
     nav.style.display = "none";
   }
+  nav.classList.remove("navContainer:before");
 }
 
 

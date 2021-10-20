@@ -1567,7 +1567,7 @@ p{
 
 .navbarContainer {
   position: fixed;
-  top: 40%;
+  top: 38%;
   width: 10%;
   z-index: 1;
 }
@@ -1577,7 +1577,7 @@ p{
   width: 0;
   height: 0;
   position: absolute;
-  margin: 0% 0 0 40px;
+  margin: -80% 0 0 40px;
   border-bottom: 20px solid #212529;
   border-right: 18px solid transparent;
   border-left: 18px solid transparent;
