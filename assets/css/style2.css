@@ -1555,7 +1555,6 @@ p{
   width: 10%;
   position:absolute;
   margin-top:50px;
-  rotation: 180deg;
 
 }
 
@@ -1563,6 +1562,7 @@ p{
   background-color: #4CC1BE;
   height: 0;
   width: 100%;
+  rotation:180deg;
 }
 
 .navbarContainer {
