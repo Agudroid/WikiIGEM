@@ -705,9 +705,7 @@ p{
   margin: 0;
 }
 
-.features .nav-link:hover {
-  color: #ef6603;
-}
+
 
 .features .nav-link.active {
   background: #ef6603;
@@ -1555,7 +1553,7 @@ p{
   width: 10%;
   position:absolute;
   margin-top:50px;
-
+  transform: rotateX(180deg);
 }
 
 .tear-filled{
