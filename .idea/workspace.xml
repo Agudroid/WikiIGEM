@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Gotita finished">
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/AbR_SBOL.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Operon_CDS_SBOL (3).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Promoter_SBOL (5).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/RBS_SBOL (5).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Terminator_SBOL (5).svg" afterDir="false" />
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Gotita with navBar added">
+      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/BG_Bakcbone.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HumanPractices.html" beforeDir="false" afterPath="$PROJECT_DIR$/HumanPractices.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SynBio.html" beforeDir="false" afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +108,7 @@
       <workItem from="1634427592475" duration="595000" />
       <workItem from="1634663796826" duration="1644000" />
       <workItem from="1634695675866" duration="4717000" />
-      <workItem from="1634721936869" duration="2368000" />
+      <workItem from="1634721936869" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="Temporary charts">
       <created>1629756372325</created>
@@ -221,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634699675645</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Gotita with navBar added">
+      <created>1634739020770</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634739020770</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +257,7 @@
     <MESSAGE value="Safety.html finished" />
     <MESSAGE value="Abraham branch merged &amp; navbar fixed" />
     <MESSAGE value="Gotita finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gotita finished" />
+    <MESSAGE value="Gotita with navBar added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gotita with navBar added" />
   </component>
 </project>
