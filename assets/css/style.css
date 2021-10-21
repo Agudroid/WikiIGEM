@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -318,7 +320,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: url("../img/cianoBackground.gif");
+  background: url("../img/cianoBackground.gif");
+  filter:
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
@@ -1297,7 +1300,7 @@ section {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
@@ -1310,16 +1313,32 @@ section {
   margin:20px;
   padding-top:30px;
 }
-#footer .social-links a:hover {
-  background: #bd5102;
-  color: #fff;
-  text-decoration: none;
+
+/*-------------------------------------
+
+        Inner Navigation Menu
+
+--------------------------------------- */
+.GotaHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-#footer .copyright {
-  margin: 0 0 5px 0;
+.progress-container {
+  background: none;
+  height: 10rem;
+  width: 10%;
+  position:absolute;
+  margin-top:50px;
+  rotation: 180deg;
+
 }
 
-#footer .credits {
-  font-size: 13px;
+.tear-filled{
+  background-color: #4CC1BE;
+  height: 0;
+  width: 100%;
 }
+

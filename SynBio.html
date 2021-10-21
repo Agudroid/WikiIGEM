@@ -28,10 +28,13 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/circularSlider.css">
+
 
 </head>
 
 <body>
+<script src="assets/js/jquery.js"></script>
 
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
@@ -43,28 +46,26 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="Home.html">Home</a></li>
+                <li><a class="nav-link scrollto" href="Home.html">Home</a></li>
                 <li class="dropdown"><a href="#"><span>Project</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="Description.html">Description</a></li>
                         <li><a href="Metabolic.html">Metabolic Engineering</a></li>
                         <li><a href="Implementation.html">Implementation</a></li>
+                        <li><a href="#">Proof of Concept</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>People</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="Attribution.html">Attributions</a></li>
                         <li><a href="Team.html">4C_Fuels Team</a></li>
-                        <li><a href="Collaborations.html">Collaborations</a></li>
-                        <li><a href="Partnership.html">Partnership</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>Society</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="HumanPractices.html">Human Practices</a></li>
-                        <li><a href="#">Education & Public engagement</a></li>
+                        <li><a href="#">Scientific Communication & Education</a></li>
                         <li><a href="#">Collaborations</a></li>
-                        <li><a href="Partnership.html">Partnership</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>WET Lab</span> <i class="bi bi-chevron-down"></i></a>
@@ -72,7 +73,7 @@
                         <li><a href="Notebook.html">Notebook</a></li>
                         <li><a href="Experiments.html">Experiments</a></li>
                         <li><a href="SynBio.html">SynBio-Design</a></li>
-                        <li><a href="Engineering.html">Engineering Success</a></li>
+                        <li><a href="Engineering.html">Engineering</a></li>
                         <li><a href="Encapsulation.html">Encapsulation</a></li>
                     </ul>
                 </li>
@@ -81,9 +82,10 @@
                         <li><a href="Modelling.html">Modelling</a></li>
                         <li><a href="Hardware.html">Hardware</a></li>
                         <li><a href="#">Bioprocesses</a></li>
+                        <li><a href="#">Software</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#"><span>iGEM</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown active"><a href="#"><span>iGEM</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="Contribution.html">Contribution</a></li>
                         <li><a href="Results.html">Results</a></li>
@@ -363,94 +365,252 @@
         </div>
     </section><!-- End Features Section -->
 
-</main><!-- End #main -->
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+        <div class="container">
 
-<footer id="footer" class="footer">
-    <h2>Our Sponsors</h2>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-md-6 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left">
-                    <img class="img-fluid" src="assets/img/Sponsors/640px-Logo_CNB-removebg-preview.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid"
-                         src="assets/img/Sponsors/1598-2019-03-14-Logo Compluemprende vectorizado.png" alt=""/>
-                </div>
+            <div class="section-title" data-aos="zoom-out" id="features">
+                <h2>Niveles</h2>
             </div>
 
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/As_Biomad.png" alt=""/>
+            <ul class="nav nav-tabs row d-flex" style="align-items:center;">
+                <li class="nav-item col-3" data-aos="zoom-in">
+                    <a class="nav-link active show active" data-bs-toggle="tab" href="#tab1">
+                        <h4 >Butanol</h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab2">
+                        <h4>Enzyme </h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab2">
+                        <h4>Tolerance </h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab2">
+                        <h4>Secretion</h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab2">
+                        <h4>PK-MCG </h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab2">
+                        <h4>pJAY constructs</h4>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content container-fluid ">
+                <div class="tab-pane row" id="tab1">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                        </div>
+                        <div class="tab-content container-fluid" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <div class="row">
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <div class="row">
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col-3">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <div class="row">
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <div class="row">
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+
+                                        </div>
+                                    </div>
+                                    <div class="card col">
+                                        <img src="assets/img/Syn-Bio/Promoter_SBOL%20(5).svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Promotor</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Complutense.png" alt=""/>
+                <div class="tab-pane" id="tab2">
+                    <h3>Patata2</h3>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/denovodna_logo_March2018-removebg-preview.png"
-                         alt=""/>
-                </div>
-            </div>
 
-            <div class="col-lg-2 col-md-6 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left">
-                    <img class="img-fluid" src="assets/img/Sponsors/Fund DRO.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/neb.png" alt=""/>
-                </div>
-            </div>
+        </div>
+    </section><!-- End Features Section -->
 
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/idt-logo-thumb-800.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Logo_biologia.png" alt=""/>
-                </div>
-            </div>
+    <section class="iq-features">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-12"></div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="holderCircle">
+                        <div class="round"></div>
+                        <div class="dotCircle">
+                           <span class="itemDot active itemDot1" data-tab="1">
+                           <i class="bi-alarm bi"></i>
+                           <span class="forActive"></span>
+                           </span>
 
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Logo_G-Research.svg" alt=""/>
-                </div>
-            </div>
+                            <span class="itemDot itemDot2" data-tab="2">
+                           <i class="bi-alarm bi"></i>
+                           <span class="forActive"></span>
+                           </span>
 
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/TWST.png" alt=""/>
+                            <span class="itemDot itemDot3" data-tab="3">
+                           <i class="bi-alarm bi"></i>
+                           <span class="forActive"></span>
+                           </span>
+
+                        </div>
+                        <div class="contentCircle">
+                            <div class="CirItem title-box active CirItem1">
+                                <h2 class="title"><span>Automate</span></h2>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fa fa-clock-o"></i>
+                            </div>
+
+                            <div class="CirItem title-box CirItem2">
+                                <h2 class="title"><span>Chat </span></h2>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fa fa-comments"></i>
+                            </div>
+
+                            <div class="CirItem title-box CirItem3">
+                                <h2 class="title"><span>Responses</span></h2>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fa fa-user"></i>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Preincubadora.png" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/Promega.jpg" alt=""/>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 mt-5 mt-md-0 sponsor-box">
-                <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-                    <img class="img-fluid" src="assets/img/Sponsors/SYNBIO4FLAV.png" alt=""/>
-                </div>
+                <div class="col-lg-3 col-md-12"></div>
             </div>
         </div>
-    </div>
-</footer>
+    </section>
+
+</main><!-- End #main -->
+
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -459,7 +619,7 @@
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<script  src="assets/js/CircularSlider.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 <!-- Template Main JS File -->

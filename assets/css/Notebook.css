@@ -1,0 +1,141 @@
+/*--------------------------------------------------------------
+# Notebook 
+--------------------------------------------------------------*/
+.container {
+    width: 70%;
+}
+.v-line-left {
+    border-left: 5px solid #444444;
+    height: 25rem;
+    position: relative;
+    left: 1%;
+    top: 50px;
+    
+  }
+.v-line-right {
+    border-right: 5px solid #444444;
+    height: 25rem;
+    position: relative;
+    left: 90%;
+    top: 50px;
+    
+    
+}
+
+  .h-line {
+    border-top: 5px solid #444444;
+    position: relative;
+    width: 75rem;
+    left: 1.7%;
+    top: 50px;
+  }
+
+  .curve-right-svg {
+       margin-left: 1.39rem; 
+      margin-top: 1.7rem;
+  } 
+
+
+  path {
+      stroke: #444444;
+      fill: none;
+      stroke-width: 0.4;
+      
+  }
+  .month-circle-left {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background: #444444;;
+    border-radius: 50%;
+    left: -0.80rem;
+    top: 50%;
+  
+  }
+
+  .month-circle-right {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background: #444444;;
+    border-radius: 50%;
+    left: 0.80rem;
+    top: 50%;
+    
+  }
+
+  .h4-months {
+      padding-left: 4rem;
+    
+  }
+
+  .month-r-container1 {
+    position: absolute;
+    top: 168rem;
+    left: 70rem;
+      
+  }
+
+  .month-r-container2 {
+    position: absolute;
+    top: 193rem;
+    left: 70rem;
+  }
+
+  .month-r-container3 {
+    position: absolute;
+    top: 218rem;
+    left: 70rem;
+  }
+
+  .mb-6 {
+      margin-bottom: 5rem;
+  }
+
+  .mt-6 {
+      margin-top: 6rem;
+  }
+
+  .mt-7 {
+      margin-top:7rem;
+  }
+
+  .img-btn {
+    width: 5rem;
+  }
+
+  .link-text {
+      margin-left: 8rem;
+      margin-top: 1.5rem;
+  }
+
+  .date-btn-left {
+      margin-top: 3rem;
+      margin-left: 1rem;   
+      
+    }
+
+  .date-btn-right {
+      margin-top: 3rem;
+      margin-right: 5rem;
+      width: 10rem;
+      padding-left: 5rem;
+
+      
+  }
+
+  button {
+      width: 20rem !important;
+
+  }
+
+  .dropdown-menu {
+      width: 20rem;
+  }
+
+  .month-container {
+    width: 200px;
+    
+  }
+
+  
