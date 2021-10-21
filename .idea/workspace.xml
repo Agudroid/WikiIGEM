@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Goti laGotta Definitiva ahora si que si, la buena, somos unos tigres, mastodontes, estegosaurios, triceratop, bengala">
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="SBOL Estructurado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SynBio.html" beforeDir="false" afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1633913121832" duration="149000" />
       <workItem from="1633913285056" duration="936000" />
       <workItem from="1633959899355" duration="2919000" />
-      <workItem from="1634765227768" duration="14406000" />
+      <workItem from="1634765227768" duration="17042000" />
     </task>
     <task id="LOCAL-00001" summary="Temporary charts">
       <created>1629756372325</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634779331114</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SBOL Estructurado">
+      <created>1634781874810</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634781874810</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,7 @@
     <MESSAGE value="Experiments.html finished" />
     <MESSAGE value="update fonts and Hardware.html page finished" />
     <MESSAGE value="Goti laGotta Definitiva ahora si que si, la buena, somos unos tigres, mastodontes, estegosaurios, triceratop, bengala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Goti laGotta Definitiva ahora si que si, la buena, somos unos tigres, mastodontes, estegosaurios, triceratop, bengala" />
+    <MESSAGE value="SBOL Estructurado" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBOL Estructurado" />
   </component>
 </project>
