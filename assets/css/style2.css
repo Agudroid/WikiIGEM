@@ -1542,25 +1542,43 @@ p{
 --------------------------------------- */
 .GotaHeader {
   position: fixed;
-  top: 8%;
-  width: 90%;
+  top: 20%;
+  margin-left:5%;
+  width: 10%;
   z-index: 1;
 }
 
-.progress-container {
-  background: none;
-  height: 10rem;
-  width: 10%;
-  position:absolute;
-  margin-top:50px;
-  transform: rotateX(180deg);
+.GotaPhoto {
+  position: fixed;
+  top: 20%;
+  margin-left:10%;
+  width: 5%;
+  z-index: 2;
+  height:85px;
+
 }
 
-.tear-filled{
-  background-color: #4CC1BE;
-  height: 0;
+.progress-container {
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  height: 85px;
   width: 100%;
-  rotation:180deg;
+  clip-path: path('M32.1,81.1c0,0-27.9-32.1-27.9-45.9s12.5-25,27.9-25S60,21.4,60,35.3S33.2,81.1,32.1,81.1z');
+  transform: rotateX(180deg) scale(1.75);
+  padding-bottom: 10%;
+  margin: auto;
+  display:block;
+
+
+}
+
+.tear-filled {
+  background-color: #4CC1BE;
+  height: 0%;
+  width: 65px;
+  padding-bottom:10px;
+
 }
 
 .navbarContainer {
@@ -1570,16 +1588,7 @@ p{
   z-index: 1;
 }
 
-.navbarContainer:before {
-  content:"";
-  width: 0;
-  height: 0;
-  position: absolute;
-  margin: -80% 0 0 40px;
-  border-bottom: 20px solid #212529;
-  border-right: 18px solid transparent;
-  border-left: 18px solid transparent;
-}
+
 
 .BG_Backbone{
   background-image: url("../img/Syn-Bio/BG_Bakcbone.svg");

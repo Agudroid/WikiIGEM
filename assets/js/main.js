@@ -12,6 +12,7 @@ function progressBarScroll() {
 
 }
 
+
 window.onscroll = function () {
   progressBarScroll();
 };

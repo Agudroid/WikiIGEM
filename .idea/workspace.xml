@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="Minor fixes">
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Level1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Level2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Level3.svg" afterDir="false" />
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="La puta gota está terminada">
+      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/Screenshot 2021-10-21 011645.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Syn-Bio/ciano entera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/gotita_bien_DEF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/gotita_bien_DEF_superdef.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_10_2021_21_46__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_10_2021_21_46__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2021_4_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2021_4_13__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SynBio.html" beforeDir="false" afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WikiIGEM-marcos-mapa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -101,16 +107,8 @@
       <workItem from="1633905890583" duration="5054000" />
       <workItem from="1633913121832" duration="149000" />
       <workItem from="1633913285056" duration="936000" />
-      <workItem from="1633959899355" duration="5731000" />
-      <workItem from="1633970791722" duration="635000" />
-      <workItem from="1634037596794" duration="15000" />
-      <workItem from="1634130089973" duration="9000" />
-      <workItem from="1634229667423" duration="1302000" />
-      <workItem from="1634315425367" duration="6126000" />
-      <workItem from="1634427592475" duration="595000" />
-      <workItem from="1634663796826" duration="1644000" />
-      <workItem from="1634695675866" duration="4717000" />
-      <workItem from="1634721936869" duration="12925000" />
+      <workItem from="1633959899355" duration="2919000" />
+      <workItem from="1634765227768" duration="11659000" />
     </task>
     <task id="LOCAL-00001" summary="Temporary charts">
       <created>1629756372325</created>
@@ -189,56 +187,7 @@
       <option name="project" value="LOCAL" />
       <updated>1633910787393</updated>
     </task>
-    <task id="LOCAL-00012" summary="HumanPractices.html javaScript things finished">
-      <created>1633964018049</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1633964018049</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Safety.html finished">
-      <created>1633965053679</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1633965053679</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Abraham branch merged &amp; navbar fixed">
-      <created>1634414686488</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1634414686488</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Gotita finished">
-      <created>1634699675645</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1634699675645</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Gotita with navBar added">
-      <created>1634739020770</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1634739020770</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Minor fixes">
-      <created>1634740259187</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1634740259187</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Minor fixes">
-      <created>1634757086567</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1634757086567</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,12 +218,6 @@
     <MESSAGE value="Contribution.html finished" />
     <MESSAGE value="Experiments.html finished" />
     <MESSAGE value="update fonts and Hardware.html page finished" />
-    <MESSAGE value="HumanPractices.html javaScript things finished" />
-    <MESSAGE value="Safety.html finished" />
-    <MESSAGE value="Abraham branch merged &amp; navbar fixed" />
-    <MESSAGE value="Gotita finished" />
-    <MESSAGE value="Gotita with navBar added" />
-    <MESSAGE value="Minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="update fonts and Hardware.html page finished" />
   </component>
 </project>
