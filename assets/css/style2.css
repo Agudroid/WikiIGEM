@@ -703,14 +703,14 @@ p{
   font-size: 18px;
   font-weight: 600;
   margin: 0;
+  color:#318c5a;
 }
 
 
 
 .features .nav-link.active {
-  background: #ef6603;
-  color: #fff;
-  border-color: #ef6603;
+  background: #a3da4b;
+  color: #318c5a !important;
 }
 
 @media (max-width: 768px) {
