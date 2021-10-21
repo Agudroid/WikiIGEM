@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="SBOL Estructurado">
+    <list default="true" id="1bc0c8ab-56ac-42c9-8379-d718ce99ca99" name="Default Changelist" comment="La puta celula">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_10_2021_21_46__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_10_2021_21_46__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_10_2021_22_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_10_2021_22_58__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2021_4_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2021_4_13__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HumanPractices.html" beforeDir="false" afterPath="$PROJECT_DIR$/HumanPractices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SynBio.html" beforeDir="false" afterPath="$PROJECT_DIR$/SynBio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634781874810</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="La puta celula">
+      <created>1634824474141</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634824474141</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +234,7 @@
     <MESSAGE value="update fonts and Hardware.html page finished" />
     <MESSAGE value="Goti laGotta Definitiva ahora si que si, la buena, somos unos tigres, mastodontes, estegosaurios, triceratop, bengala" />
     <MESSAGE value="SBOL Estructurado" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBOL Estructurado" />
+    <MESSAGE value="La puta celula" />
+    <option name="LAST_COMMIT_MESSAGE" value="La puta celula" />
   </component>
 </project>
